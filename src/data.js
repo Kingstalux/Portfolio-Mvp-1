@@ -1,9 +1,9 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
+  FiTwitter,
+  FiFacebook,
   FiGithub,
-  FiDribbble,
+  FiLinkedin,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -73,20 +73,20 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/NguKingsley',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://web.facebook.com/profile.php?id=100008128245727',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/Kingstalux',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/ngu-kingsely-junior-cho-974b60136/',
   },
 ];
 
