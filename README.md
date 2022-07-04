@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# KINGSELY'S PORTFOLIO
-This is my first project.
+# Kingsely's Portfolio
+This is my next portfolio project.
 
 ## Built With
 
@@ -27,14 +27,8 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 - To get local copy :
  ``` node
-  git clone https://github.com/Kingstalux/    React-capstone
+  git clone https://github.com/Kingstalux/Portfolio-Mvp-1
   ```
- ```node
-   cd react-capstone
- ```
-  ```node
-   code .
- ```
   ```node
    npm install
  ```
@@ -68,7 +62,7 @@ Original design idea by Nelson Sakwa on Behance.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kingstalux/Maths-magicians/issues).
+Feel free to check the [issues page](https://github.com/Kingstalux/Portfolio-Mvp-1/issues).
 
 ## Show your support
 
