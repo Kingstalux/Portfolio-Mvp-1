@@ -13,11 +13,11 @@ import {
 } from 'react-icons/fi';
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+// import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
+// import UpworkBrandIcon from './assets/img/brands/upwork.png';
+// import FiverBrandIcon from './assets/img/brands/fiverr.png';
+// import BehanceBrandIcon from './assets/img/brands/behance.png';
+// import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -91,28 +91,28 @@ export const social = [
 ];
 
 // companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
+// export const brands = [
+//   {
+//     img: FreelancerBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: UpworkBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: FiverBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: BehanceBrandIcon,
+//     href: '',
+//   },
+//   {
+//     img: DribbbleBrandIcon,
+//     href: '',
+//   },
+// ];
 
 // projects
 export const projectsData = [
@@ -121,36 +121,42 @@ export const projectsData = [
     image: Project1,
     name: 'project name 1',
     category: 'UI/UX design',
+    desc: 'project1',
   },
   {
     id: '2',
     image: Project2,
     name: 'project name 2',
     category: 'web development',
+    desc: 'project2',
   },
   {
     id: '3',
     image: Project3,
     name: 'project name 3',
     category: 'UI/UX design',
+    desc: 'project3',
   },
   {
     id: '4',
     image: Project4,
     name: 'project name 4',
     category: 'branding',
+    desc: 'project4',
   },
   {
     id: '5',
     image: Project5,
     name: 'project name 5',
     category: 'web development',
+    desc: 'project5',
   },
   {
     id: '6',
     image: Project6,
     name: 'project name 6',
     category: 'web development',
+    desc: 'project6',
   },
 ];
 
