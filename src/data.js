@@ -13,12 +13,12 @@ import {
 } from 'react-icons/fi';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/pro1.png';
+import Project2 from './assets/img/projects/pro2.png';
+import Project3 from './assets/img/projects/pro3.png';
+import Project4 from './assets/img/projects/pro4.png';
+import Project5 from './assets/img/projects/pro5.png';
+import Project6 from './assets/img/projects/pro6.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -87,44 +87,50 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
-    desc: 'project1',
+    name: 'Covid-19 Tracker',
+    category: 'React/Redux Bootstrap',
+    desc: 'A site where users can check the COVID-19 pandemic statistics of any country in the world.',
+    code: 'https://github.com/Kingstalux/React-Capstone',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
-    desc: 'project2',
+    name: 'Fifa Conference',
+    category: 'HTML Css JavaScript',
+    desc: 'A fake conference site which provides info on the launch of the Fifa 21 game',
+    code: 'https://github.com/Kingstalux/Conference_Capstone',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
-    desc: 'project3',
+    name: 'Budget App',
+    category: 'Ruby on rails',
+    desc: 'A site where users can keep track of various budgets and their transactions',
+    code: 'https://github.com/Kingstalux/Budget-App',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-    desc: 'project4',
+    name: 'School Library',
+    category: 'Ruby',
+    desc: 'A console application which keeps track of rentals',
+    code: 'https://github.com/Kingstalux/School-Library',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-    desc: 'project5',
+    name: 'SpaceX Hub',
+    category: 'React/Redux',
+    desc: 'A site where users can book and cancel reservations on Rockets and Missions',
+    code: 'https://github.com/Kingstalux/SpaceX-Hub',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-    desc: 'project6',
+    name: 'XD Series',
+    category: 'JavaScript Webpack',
+    desc: 'A site where users can like and comment on their favourite series',
+    code: 'https://github.com/azy64/javascript-capstone',
   },
 ];
 

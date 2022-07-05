@@ -3,6 +3,7 @@ import React from 'react';
 const Project = ({ item }) => {
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
+      <a href={item.code}>
       <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
@@ -11,6 +12,7 @@ const Project = ({ item }) => {
       <p className='text-base max-w-md'>
         {item.desc}
       </p>
+      </a>
     </div>
   );
 };
