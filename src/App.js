@@ -11,7 +11,7 @@ import { Testimonials } from './components/Testimonials';
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-white relative'>
       <Header />
       <Hero />
       <About />
@@ -21,7 +21,6 @@ const App = () => {
       <Testimonials />
       <Contacts />
       <Footer />
-      <div style={{height: '2000px'}}></div>
     </div>
   );
 };

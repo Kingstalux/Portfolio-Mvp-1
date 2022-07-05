@@ -12,13 +12,6 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
-// companies icons
-// import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-// import UpworkBrandIcon from './assets/img/brands/upwork.png';
-// import FiverBrandIcon from './assets/img/brands/fiverr.png';
-// import BehanceBrandIcon from './assets/img/brands/behance.png';
-// import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
-
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
 import Project2 from './assets/img/projects/p2.webp';
@@ -73,14 +66,6 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiTwitter />,
-    href: 'https://twitter.com/NguKingsley',
-  },
-  {
-    icon: <FiFacebook />,
-    href: 'https://web.facebook.com/profile.php?id=100008128245727',
-  },
-  {
     icon: <FiGithub />,
     href: 'https://github.com/Kingstalux',
   },
@@ -88,31 +73,15 @@ export const social = [
     icon: <FiLinkedin />,
     href: 'https://www.linkedin.com/in/ngu-kingsely-junior-cho-974b60136/',
   },
+  {
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/NguKingsley',
+  },
+  {
+    icon: <FiFacebook />,
+    href: 'https://web.facebook.com/profile.php?id=100008128245727',
+  },
 ];
-
-// companies
-// export const brands = [
-//   {
-//     img: FreelancerBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: UpworkBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: FiverBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: BehanceBrandIcon,
-//     href: '',
-//   },
-//   {
-//     img: DribbbleBrandIcon,
-//     href: '',
-//   },
-// ];
 
 // projects
 export const projectsData = [
@@ -263,12 +232,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'kingsleyngu25@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Yaounde, Cameroon',
     description: 'Serving clients worldwide',
   },
 ];

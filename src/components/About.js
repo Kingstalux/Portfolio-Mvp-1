@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../assets/img/about.webp';
+import { Link } from 'react-scroll';
 
 export const About = () => {
   return (
@@ -26,9 +27,15 @@ export const About = () => {
                 Passionate about ideating, conceptualizing, and producing consumer-centric as well as B2B technology and technology-enabled products from level zero. Open for exploring exciting full-stack development opportunities in startups as well as companies with scale.
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
-            </button>
+            <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500} offset={-70}
+              className="transition-all duration-300"
+            >
+              <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
+
+                Contact me
+              </button>
+
+            </Link>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { social } from '../data';
-import Logo from '../assets/img/logo.svg';
 
 export const Footer = () => {
   return (
@@ -18,10 +17,10 @@ export const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+            Kingstalux
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2022 Ngu Kingsely. Some rights reserved.
           </p>
         </div>
       </div>

@@ -10,8 +10,7 @@ export const Contacts = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch
           </p>
         </div>
         <div
@@ -36,15 +35,14 @@ export const Contacts = () => {
               );
             })}
           </div>
-          <form
+          <form action="https://formspree.io/f/mvodvrnv" method="post"
             className='space-y-8 w-full max-w-[780px]'
           >
-            <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
-            </div>
-            <input className='input' type='text' placeholder='Subject' />
+            <input className='input' type='text' name="name" placeholder='Your name' required />
+            <input className='input' type='email' name="email" placeholder='Your email' required />
             <textarea
+              required
+              name="message"
               className='textarea'
               placeholder='Your message'
             ></textarea>

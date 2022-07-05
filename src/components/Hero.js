@@ -1,8 +1,9 @@
-import React from 'react'
-import WomanImg from '../assets/img/banner-woman2.webp'
+import React from 'react';
+import WomanImg from '../assets/img/banner-woman2.webp';
+import { Link } from 'react-scroll';
 
 export const Hero = () => {
-    return (
+  return (
     <section
       id='home'
       className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
@@ -19,9 +20,14 @@ export const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
             </p>
+
+            <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500} offset={-70}
+              className="transition-all duration-300"
+            >
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Let's Connect
+              Work with me
             </button>
+            </Link>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
             <img src={WomanImg} alt='' />
@@ -29,5 +35,5 @@ export const Hero = () => {
         </div>
       </div>
     </section>
-    )
-}
+  );
+};
