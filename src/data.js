@@ -31,8 +31,8 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
+import TestiImage1 from './assets/img/testimonials/alex.jpg';
+import TestiImage2 from './assets/img/testimonials/step.jpg';
 
 // navigation
 export const navigation = [
