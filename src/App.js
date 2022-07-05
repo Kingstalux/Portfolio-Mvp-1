@@ -10,9 +10,9 @@ const App = () => {
     <div>
       <Header />
       <Hero />
+      <Portfolio />
       <About />
       <Skills />
-      <Portfolio />
       <div style={{height: '2000px'}}></div>
     </div>
   );

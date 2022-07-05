@@ -3,7 +3,7 @@ import Image from '../assets/img/about.webp';
 
 export const About = () => {
   return (
-    <section className='section bg-secondary' id='about'>
+    <section className='section bg-primary' id='about'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-24'>
           <img
