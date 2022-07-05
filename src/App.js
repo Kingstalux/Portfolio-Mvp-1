@@ -1,5 +1,6 @@
 import React from 'react';
 import { About } from './components/About';
+import { Contacts } from './components/Contacts';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Portfolio } from './components/Portfolio';
@@ -12,11 +13,12 @@ const App = () => {
     <div>
       <Header />
       <Hero />
-      <Portfolio />
       <About />
       <Skills />
+      <Portfolio />
       <Services />
       <Testimonials />
+      <Contacts />
       <div style={{height: '2000px'}}></div>
     </div>
   );
