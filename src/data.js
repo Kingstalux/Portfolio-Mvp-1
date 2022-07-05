@@ -1,9 +1,9 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
+  FiTwitter,
+  FiFacebook,
   FiGithub,
-  FiDribbble,
+  FiLinkedin,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -12,20 +12,13 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
-
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/pro1.png';
+import Project2 from './assets/img/projects/pro2.png';
+import Project3 from './assets/img/projects/pro3.png';
+import Project4 from './assets/img/projects/pro4.png';
+import Project5 from './assets/img/projects/pro5.png';
+import Project6 from './assets/img/projects/pro6.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -38,9 +31,8 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from './assets/img/testimonials/alex.jpg';
+import TestiImage2 from './assets/img/testimonials/step.jpg';
 
 // navigation
 export const navigation = [
@@ -73,44 +65,20 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
-  },
-  {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/Kingstalux',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
-  },
-];
-
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/ngu-kingsely-junior-cho-974b60136/',
   },
   {
-    img: UpworkBrandIcon,
-    href: '',
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/NguKingsley',
   },
   {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://web.facebook.com/profile.php?id=100008128245727',
   },
 ];
 
@@ -119,38 +87,50 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Covid-19 Tracker',
+    category: 'React/Redux Bootstrap',
+    desc: 'A site where users can check the COVID-19 pandemic statistics of any country in the world.',
+    code: 'https://github.com/Kingstalux/React-Capstone',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Fifa Conference',
+    category: 'HTML Css JavaScript',
+    desc: 'A fake conference site which provides info on the launch of the Fifa 21 game',
+    code: 'https://github.com/Kingstalux/Conference_Capstone',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Budget App',
+    category: 'Ruby on rails',
+    desc: 'A site where users can keep track of various budgets and their transactions',
+    code: 'https://github.com/Kingstalux/Budget-App',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'School Library',
+    category: 'Ruby',
+    desc: 'A console application which keeps track of rentals',
+    code: 'https://github.com/Kingstalux/School-Library',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'SpaceX Hub',
+    category: 'React/Redux',
+    desc: 'A site where users can book and cancel reservations on Rockets and Missions',
+    code: 'https://github.com/Kingstalux/SpaceX-Hub',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'XD Series',
+    category: 'JavaScript Webpack',
+    desc: 'A site where users can like and comment on their favourite series',
+    code: 'https://github.com/azy64/javascript-capstone',
   },
 ];
 
@@ -202,27 +182,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Front End',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Deal with the interface and user-facing systems Develop the navigation, interface, and visuals Focus on user experience Utilize HTML, CSS3, and JavaScript.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Back End',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Deal with the server and database of the application Create the back frame that allows the front end development to exist Utilize Ruby, and Ruby on rails.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Database',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Deal with the information stored in the user database. Utilize Postgresql, NodeJs. Store user information into database..',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Full-Stack',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      ' Deal with the overlap between the front end and back end. Utilize all the coding languages of the first two plus MySQL. Take responsibility for the entire experience to make sure it goes smoothly.',
   },
 ];
 
@@ -231,23 +211,16 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Kingsley is a must-have for a mob-programming season, he has rich ideas and expresses them professionally. he also has an eye for design and organization, qualities I found greatly useful in projects we worked on together. His stacks include React, Redux, and JavaScript.',
+    authorName: 'Alexander Odufuye',
+    authorPosition: 'Frontend Developer, Technical Support Engineer',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Kingsley is a fantastic developer, he is very detail-oriented and technical, great with javascript and debugging code. I have collaborated with him a couple of times through pair-programming and it’s always such fun working with him, he approaches his work with much precision and calmness. He is such a fun individual to work with and I can’t recommend him enough.',
+    authorName: 'Stephanie Ugboaja',
+    authorPosition: 'Software Developer',
   },
 ];
 
@@ -257,12 +230,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'kingsleyngu25@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Yaounde, Cameroon',
     description: 'Serving clients worldwide',
   },
 ];
