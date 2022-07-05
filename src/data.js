@@ -33,7 +33,6 @@ import SkillImg8 from './assets/img/skills/figma.png';
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -177,27 +176,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Front End',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Deal with the interface and user-facing systems Develop the navigation, interface, and visuals Focus on user experience Utilize HTML, CSS3, and JavaScript.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Back End',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Deal with the server and database of the application Create the back frame that allows the front end development to exist Utilize Ruby, and Ruby on rails.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Database',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Deal with the information stored in the user database. Utilize Postgresql, NodeJs. Store user information into database..',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Full-Stack',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      ' Deal with the overlap between the front end and back end. Utilize all the coding languages of the first two plus MySQL. Take responsibility for the entire experience to make sure it goes smoothly.',
   },
 ];
 
@@ -206,23 +205,16 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Kingsley is a must-have for a mob-programming season, he has rich ideas and expresses them professionally. he also has an eye for design and organization, qualities I found greatly useful in projects we worked on together. His stacks include React, Redux, and JavaScript.',
+    authorName: 'Alexander Odufuye',
+    authorPosition: 'Frontend Developer, Technical Support Engineer',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      'Kingsley is a fantastic developer, he is very detail-oriented and technical, great with javascript and debugging code. I have collaborated with him a couple of times through pair-programming and it’s always such fun working with him, he approaches his work with much precision and calmness. He is such a fun individual to work with and I can’t recommend him enough.',
+    authorName: 'Stephanie Ugboaja',
+    authorPosition: 'Software Developer',
   },
 ];
 

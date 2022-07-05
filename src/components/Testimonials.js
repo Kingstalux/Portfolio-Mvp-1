@@ -11,8 +11,7 @@ export const Testimonials = () => {
             What other people say
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Here are some of the recommendations I was given me on Linkedin.
           </p>
         </div>
         <TestiSlider />

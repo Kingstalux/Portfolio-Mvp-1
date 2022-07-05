@@ -10,8 +10,7 @@ export const Services = () => {
             What I do for clients
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Here are some of the core services I offer to clients
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>
