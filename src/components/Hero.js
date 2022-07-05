@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanImg from '../assets/img/banner-woman2.webp';
+import Img from '../assets/img/banner.png';
 import { Link } from 'react-scroll';
 
 export const Hero = () => {
@@ -30,7 +30,7 @@ export const Hero = () => {
             </Link>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <img src={Img} alt='my_picture' />
           </div>
         </div>
       </div>
