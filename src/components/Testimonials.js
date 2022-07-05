@@ -11,7 +11,7 @@ export const Testimonials = () => {
             What other people say
           </h2>
           <p className='subtitle'>
-            Here are some of the recommendations I was given me on Linkedin.
+            Here are some of the recommendations I was given on Linkedin.
           </p>
         </div>
         <TestiSlider />
