@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Link } from 'react-scroll';
-import Img from '../assets/img/banner1.png';
 
 const Hero = () => (
   <section
@@ -42,9 +41,7 @@ const Hero = () => (
             </button>
           </Link>
         </div>
-        <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-          <img src={Img} alt="my_picture" />
-        </div>
+
       </div>
     </div>
   </section>
