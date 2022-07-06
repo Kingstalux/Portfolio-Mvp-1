@@ -1,12 +1,15 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events   */
+
 import React, { useState } from 'react';
-import { XIcon } from '@heroicons/react/outline';
-import { MenuAlt3Icon } from '@heroicons/react/outline';
-import { navigation } from '../data';
-import { Socials } from './Socials';
+import { XIcon, MenuAlt3Icon } from '@heroicons/react/outline';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { navigation } from '../data';
+import Socials from './Socials';
 
-export const NavMobile = () => {
+const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const circleVariants = {
@@ -34,53 +37,53 @@ export const NavMobile = () => {
   };
 
   return (
-    <nav className='relative'>
+    <nav className="relative">
       <div
         onClick={() => setIsOpen(true)}
-        className='cursor-pointer text-white'
+        className="cursor-pointer text-white"
       >
-        <MenuAlt3Icon className='w-8 h-8' />
+        <MenuAlt3Icon className="w-8 h-8" />
       </div>
 
       {/* circle */}
       <motion.div
         variants={circleVariants}
-        initial='hidden'
+        initial="hidden"
         animate={isOpen ? 'visible' : 'hidden'}
-        className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'
-      ></motion.div>
+        className="w-4 h-4 rounded-full bg-accent fixed top-0 right-0"
+      />
 
       <motion.ul
         variants={ulVariants}
-        initial='hidden'
+        initial="hidden"
         animate={isOpen ? 'visible' : ''}
         className={`${isOpen ? 'right-0' : '-right-full'
-          } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
+        } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
       >
         <div
           onClick={() => setIsOpen(false)}
-          className='cursor-pointer absolute top-8 right-8'
+          className="cursor-pointer absolute top-8 right-8"
         >
-          <XIcon className='w-8 h-8' />
+          <XIcon className="w-8 h-8" />
         </div>
-        {navigation.map((item, idx) => {
-          return (
-            <li key={idx} className='mb-8'>
-              <Link
-                onClick={() => setIsOpen(false)}
-                to={item.href}
-                smooth={true}
-                duration={500}
-                offset={-70}
-                className='text-xl cursor-pointer capitalize'
-              >
-                {item.name}
-              </Link>
-            </li>
-          );
-        })}
+        {navigation.map((item) => (
+          <li key={navigation.indexOf(item)} className="mb-8">
+            <Link
+              onClick={() => setIsOpen(false)}
+              to={item.href}
+              smooth
+              duration={500}
+              offset={-70}
+              className="text-xl cursor-pointer capitalize"
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
         <Socials />
       </motion.ul>
     </nav>
   );
 };
+
+export default NavMobile;
