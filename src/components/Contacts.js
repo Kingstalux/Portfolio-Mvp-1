@@ -50,7 +50,7 @@ const Contacts = () => (
             className="textarea"
             placeholder="Your message"
           />
-          <button type="button" className="btn btn-lg bg-accent hover:bg-secondary-hover">
+          <button type="submit" className="btn btn-lg bg-accent hover:bg-secondary-hover">
             Send message
           </button>
         </form>
