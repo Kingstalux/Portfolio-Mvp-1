@@ -12,6 +12,8 @@ This is my next portfolio project.
 - ### Technologies used
   - Webpack, Babelrc, Linters
 
+## Live link
+[Portfolio](https://kingsely-portfolio.herokuapp.com/)
 
 ## Getting Started
 
