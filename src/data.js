@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 //  icons
 import {
   FiTwitter,
