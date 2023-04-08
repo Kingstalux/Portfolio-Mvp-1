@@ -13,7 +13,7 @@ This is my next portfolio project.
   - Webpack, Babelrc, Linters
 
 ## Live link
-[Portfolio](https://kingsely-portfolio.herokuapp.com/)
+[Portfolio](https://phenomenal-sundae-ac3f96.netlify.app/)
 
 ## Getting Started
 
